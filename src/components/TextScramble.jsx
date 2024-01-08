@@ -1,4 +1,6 @@
-import React, { useRef, useEffect } from "react";
+/* eslint-disable react/prop-types */
+
+import { useRef, useEffect } from "react";
 
 const TextScrambler = (el, chars = "!<>-_\\/[]{}—=+*^?#_") => {
   let queue = [];
@@ -59,7 +61,7 @@ const TextScramble = ({ words }) => {
     let counter = 0;
     const next = () => {
       fxRef.current.setText(words[counter]).then(() => {
-        setTimeout(next, 4000);
+        setTimeout(next, 3500);
       });
       counter = (counter + 1) % words.length;
     };
