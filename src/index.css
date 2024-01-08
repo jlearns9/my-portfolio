@@ -1,26 +1,35 @@
 :root {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: "Courier New", Courier, monospace; */
     line-height: 1.5;
     font-weight: 400;
-
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
-    background-image: url("./images/wbg2.jpg");
-    background-size: cover;
-}
-
-h1 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    letter-spacing: 1px;
+    /* background-image: url("./images/wbg2.jpg");
+    background-size: cover; */
+    margin: 2em;
 }
 
 /*########## HEADER ##########*/
+.header {
+    /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); */
+    letter-spacing: 1.5px;
+}
+
+.header__title {
+    font-size: 1.5rem;
+}
+
+.header__border {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+  }
 
 /*########## HERO ##########*/
 
@@ -34,14 +43,11 @@ h1 {
 }
 
 /*########## MEDIA QUERIES ##########*/
-@media(min-width: 320px) {
-
+@media (min-width: 320px) {
 }
 
-@media(min-width: 768px) {
-
+@media (min-width: 768px) {
 }
 
-@media(min-width: 1200px) {
-
+@media (min-width: 1200px) {
 }
