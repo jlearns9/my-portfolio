@@ -26,8 +26,8 @@ body {
     padding: .5em 1.5em;
 }
 
-body {
-    cursor: url("./cursor.svg"), auto;
+html {
+    cursor: url("./cursor.svg") 14 14, auto;
 }
 
 /*##### HEADER #####*/
@@ -42,6 +42,7 @@ body {
 }
 
 /* .header__title {} */
+/* .header__name {} */
 
 .header__border {
     border: none;
@@ -60,6 +61,14 @@ body {
 /*##### MISC/UTILITY #####*/
 .flex {
     display: flex;
+}
+
+.orangered {
+    color: orangered;
+}
+
+.green {
+    color: green;
 }
 
 /*##### MEDIA QUERIES #####*/
