@@ -30,7 +30,7 @@ html {
     cursor: url("./cursor.svg") 14 14, auto;
 }
 
-/*##### HEADER #####*/
+/*########## HEADER ##########*/
 .header {
     /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); */
     letter-spacing: 1.5px;
@@ -52,13 +52,27 @@ html {
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
 }
 
-/*##### HERO #####*/
+/*########## MAIN ##########*/
 
-/*##### SECTIONS #####*/
+/*########## ABOUT ##########*/
+.about {
+    max-width: 160px;
+}
 
-/*##### FOOTER #####*/
+.about__title {
+    margin-bottom: 0;
+}
 
-/*##### MISC/UTILITY #####*/
+.about__details {
+    margin-top: .5em;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    line-height: 1.5em;
+}
+
+/*########## FOOTER ##########*/
+
+/*########## MISC/UTILITY ##########*/
 .flex {
     display: flex;
 }
@@ -71,7 +85,7 @@ html {
     color: green;
 }
 
-/*##### MEDIA QUERIES #####*/
+/*########## MEDIA QUERIES ##########*/
 @media (min-width: 320px) {
 }
 
