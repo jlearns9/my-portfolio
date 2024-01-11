@@ -23,13 +23,22 @@ body {
     /* background-image: url('./images/wbg2.jpg');
     background-size: cover; */
     font-family: 'roboto-mono', 'Courier New', Courier, monospace;
-    margin: 2em;
+    padding: .5em 1.5em;
+}
+
+body {
+    cursor: url("./cursor.svg"), auto;
 }
 
 /*##### HEADER #####*/
 .header {
     /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); */
     letter-spacing: 1.5px;
+    font-size: .5em;
+}
+
+.header__details {
+    justify-content: space-between;
 }
 
 /* .header__title {} */
@@ -38,6 +47,7 @@ body {
     border: none;
     height: 1px;
     background-color: #000;
+    opacity: .1;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
 }
 

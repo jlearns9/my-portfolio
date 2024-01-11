@@ -7,8 +7,10 @@ export default function Header() {
     return (
         <>
             <div className="header">
-                <h1 className="header__title">&lt;<TextScramble words={words} />&gt;</h1>
-                <h1>JOGO</h1>
+                <div className="header__details flex">
+                    <h1 className="header__title">&lt;<TextScramble words={words} />&gt;</h1>
+                    <h1>JOGO</h1>
+                </div>
                 <hr className="header__border" />
             </div>
         </>
