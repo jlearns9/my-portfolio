@@ -3,11 +3,16 @@ export default function About() {
         <div className="about">
             <h2 className="about__title">WELCOME...</h2>
             <p className="about__details">
-                MY NAME IS JORGE GOMEZ AND I AM A{" "}
-                <span className="orangered">DESIGNER</span> /{" "}
-                <span className="green">DEVELOPER</span> WITH A PASSION TO
+                MY NAME IS JORGE GOMEZ AND I&apos;M A{" "}
+                <span className="color-primary">DESIGNER</span> /{" "}
+                <span className="color-secondary">DEVELOPER</span> WITH A PASSION TO
                 CREATE BEAUTIFUL AND EFFECTIVE WEB APPLICATIONS.
             </p>
+            <p className="about__details">
+                IF YOU&apos;RE INTERESTED IN HIRING ME FOR A PROJECT DON&apos;T HESITATE TO
+                REACH OUT
+            </p>
+            <div className="test"><button className="about__button">CONTACT</button></div>
         </div>
     );
 }
