@@ -104,7 +104,20 @@ html {
     padding: .5em 1em;
 }
 
-/*########## FOOTER ##########*/
+/*########## SKILLS ##########*/
+/* .skills {} */
+/* .skills__title {} */
+.skills__list {
+    list-style: none;
+    padding: 0;
+}
+.list__item {
+    padding: .5em 0;
+}
+
+.item-logo {
+    font-size: 1.5em;
+}
 
 /*########## MISC/UTILITY ##########*/
 .flex {
@@ -117,6 +130,18 @@ html {
 
 .color-secondary {
     color: #397c1b;
+}
+
+.color-yellow {
+    color: #FFD700;
+}
+
+.color-blue {
+    color: #0074CC;
+}
+
+.color-light-blue {
+    color: #87CEEB;
 }
 
 /*########## MEDIA QUERIES ##########*/
