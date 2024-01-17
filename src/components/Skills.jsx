@@ -1,17 +1,17 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { FaHtml5 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
 export default function Skills() {
-    const [stats, setStats] = useState(null);
+    // const [stats, setStats] = useState(null);
 
-    useEffect(() => {
-        fetch("https://www.codewars.com/api/v1/users/jlearns9")
-            .then((res) => res.json())
-            .then((data) => setStats(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch("https://www.codewars.com/api/v1/users/jlearns9")
+    //         .then((res) => res.json())
+    //         .then((data) => setStats(data));
+    // }, []);
 
     return (
         <div className="skills">
