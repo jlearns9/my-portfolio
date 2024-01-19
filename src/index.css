@@ -55,6 +55,7 @@ html {
     /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); */
     letter-spacing: 1.5px;
     font-size: .5em;
+    min-width: 320px;
 }
 
 .header__details {
@@ -75,13 +76,13 @@ html {
 }
 
 /*########## MAIN ##########*/
+.main {
+    padding: 0 1rem;
+}
 
 /*########## ABOUT ##########*/
 .about {
-    max-width: 180px;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem 1rem 0;
-    height: calc(100vh - 2.75rem);
+
 }
 
 .about__title {
@@ -110,6 +111,8 @@ html {
 .skills__list {
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .list__item {
     padding: .5em 0;
@@ -118,6 +121,13 @@ html {
 
 .item-logo {
     font-size: 1.5em;
+}
+
+/*########## SKILLS ##########*/
+.project__image {
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
 }
 
 /*########## MISC/UTILITY ##########*/
@@ -146,10 +156,17 @@ html {
 }
 
 /*########## MEDIA QUERIES ##########*/
-@media (min-width: 320px) {
+@media (max-width: 320px) {
+
 }
 
 @media (min-width: 768px) {
+    .about {
+        max-width: 180px;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 1rem 1rem 0;
+        height: calc(100vh - 2.75rem);
+    }
 }
 
 @media (min-width: 1200px) {

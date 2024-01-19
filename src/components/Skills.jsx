@@ -16,7 +16,7 @@ export default function Skills() {
     return (
         <div className="skills">
             <h2 className="skills__title">Skills</h2>
-            <ul className="skills__list">
+            <ul className="skills__list flex">
                 <li className="list__item flex">
                     <div className="color-primary item-logo">
                         <FaHtml5 />
