@@ -7,12 +7,14 @@ export default function Main() {
         <div className="main">
             <About />
             <Skills />
-            <h2>PROJECTS</h2>
-            <Project>
-                <Project.Title>MY COMPONENT LIBRARY</Project.Title>
-                <Project.Image src="../images/component.png" />
-                <Project.Description>This is a test</Project.Description>
-            </Project>
+            <div>
+                <h2>PROJECTS</h2>
+                <Project>
+                    <Project.Title>MY COMPONENT LIBRARY</Project.Title>
+                    <Project.Image src="./component.png" />
+                    <Project.Description>This is a test</Project.Description>
+                </Project>
+            </div>
         </div>
     );
 }
