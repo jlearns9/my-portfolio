@@ -18,25 +18,25 @@ export default function Skills() {
             <h2 className="skills__title">Skills</h2>
             <ul className="skills__list flex">
                 <li className="list__item flex">
-                    <div className="color-primary item-logo">
+                    <div className="color-primary logo">
                         <FaHtml5 />
                     </div>{" "}
                     <div>HTML</div>
                 </li>
                 <li className="list__item flex">
-                    <div className="color-blue item-logo">
+                    <div className="color-blue logo">
                         <SiCss3 />
                     </div>{" "}
                     <div>CSS</div>
                 </li>
                 <li className="list__item flex">
-                    <div className="color-yellow item-logo">
+                    <div className="color-yellow logo">
                         <SiJavascript />
                     </div>{" "}
                     <div>JAVASCRIPT</div>
                 </li>
                 <li className="list__item flex">
-                    <div className="color-light-blue item-logo">
+                    <div className="color-light-blue logo">
                         <FaReact />
                     </div>{" "}
                     <div>REACT</div>

@@ -1,6 +1,7 @@
-import About from "./About"
-import Skills from "./Skills"
-import Project from "./Project/index.js"
+import About from "./About";
+import Skills from "./Skills";
+import Project from "./Project/index.js";
+import Footer from "./Footer";
 
 export default function Main() {
     return (
@@ -10,11 +11,18 @@ export default function Main() {
             <div>
                 <h2>PROJECTS</h2>
                 <Project>
-                    <Project.Title>MY COMPONENT LIBRARY</Project.Title>
+                    <Project.Title link="https://github.com/jlearns9/component-library">
+                        MY COMPONENT LIBRARY
+                    </Project.Title>
                     <Project.Image src="./component.png" />
-                    <Project.Description>This is a test</Project.Description>
+                    <Project.Description>
+                        A versatile React component library that helps
+                        developers create and plan web applications with ease.
+                        You can customize and use these components as you wish.
+                    </Project.Description>
                 </Project>
             </div>
+            <Footer />
         </div>
     );
 }

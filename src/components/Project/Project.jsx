@@ -2,7 +2,7 @@
 
 export default function Project({ children }) {
     return (
-        <div>
+        <div className="project">
             {children}
         </div>
     );

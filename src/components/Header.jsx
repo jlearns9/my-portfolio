@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import TextScramble from "./TextScramble"
 
 export default function Header() {
