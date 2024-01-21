@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import { FaLinkedin } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { CiTwitter } from "react-icons/ci";
 
 export default function Footer() {
     return (
@@ -11,7 +12,14 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <FaLinkedin className="logo color-primary" />
+                    <CiLinkedin className="logo text-color" />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/jorge-gomez-8365779a/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <CiTwitter className="logo text-color" />
                 </a>
             </div>
         </div>

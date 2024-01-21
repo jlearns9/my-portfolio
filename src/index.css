@@ -160,11 +160,11 @@ html {
 }
 
 .color-primary {
-    color: #f5972d;
+    color: var(--primary-color)
 }
 
 .color-secondary {
-    color: #397c1b;
+    color: var(--secondary-color)
 }
 
 .color-yellow {
@@ -177,6 +177,18 @@ html {
 
 .color-light-blue {
     color: #87CEEB;
+}
+
+.color-retro-blue {
+    color: #6A7B8C
+}
+
+.color-retro-blue-two {
+    color: #505050
+}
+
+.text-color {
+    color: var(--text-color)
 }
 
 .border {
