@@ -7,7 +7,9 @@ export default function Main() {
     return (
         <div className="main">
             <About />
+            <hr />
             <Skills />
+            <hr />
             <div>
                 <h2>PROJECTS</h2>
                 <Project>
