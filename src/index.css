@@ -38,8 +38,9 @@ html {
 }
 
 body {
-    /* background-image: url('./images/wbg2.jpg');
-    background-size: cover; */
+    /* background-color: #F5F5F5; */
+    /* background-image: url('./images/wbg2.jpg'); */
+    /* background-size: cover; */
     /* color: #071a03; */
     color: var(--text-color);
     font-family: 'roboto-mono', 'Courier New', Courier, monospace;
@@ -68,14 +69,6 @@ html {
 /* .header__title {} */
 /* .header__name {} */
 
-.header__border {
-    border: none;
-    height: 1px;
-    background-color: #000;
-    opacity: .1;
-    margin: 0;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
-}
 
 /*########## MAIN ##########*/
 .main {
@@ -84,7 +77,7 @@ html {
 
 /*########## ABOUT ##########*/
 .about {
-
+    
 }
 
 .about__title {
@@ -109,15 +102,18 @@ html {
 
 /*########## SKILLS ##########*/
 /* .skills {} */
-/* .skills__title {} */
+
+.skills__title {
+    margin-bottom: 0px;
+}
+
 .skills__list {
-    list-style: none;
     padding: 0;
     flex-wrap: wrap;
     gap: 20px;
 }
 .list__item {
-    padding: .5em 0;
+    padding: 0;
     gap: .75em;
 }
 
@@ -137,9 +133,25 @@ html {
     gap: 10px;
 }
 
+/* .project__title {} */
+
+.project__link {
+    margin-top: 6px;
+}
+
+/* .project__description {} */
+
 /*########## FOOTER ##########*/
 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+}
 
+.footer__details {
+    justify-content: center;
 }
 
 /*########## MISC/UTILITY ##########*/
@@ -167,9 +179,18 @@ html {
     color: #87CEEB;
 }
 
+.border {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    opacity: .1;
+    margin: 0;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
 /*########## MEDIA QUERIES ##########*/
 @media (max-width: 320px) {
-
+    
 }
 
 @media (min-width: 768px) {

@@ -13,7 +13,7 @@ export default function Header() {
                     <h1 className="header__title">&lt;<TextScramble words={words} />&gt;</h1>
                     <h1 className="header__name">JOGO</h1>
                 </div>
-                <hr className="header__border" />
+                <hr className="border" />
             </div>
         </>
     )
