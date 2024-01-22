@@ -12,7 +12,9 @@ export default function About() {
                 IF YOU&apos;RE INTERESTED IN HIRING ME FOR A PROJECT DON&apos;T HESITATE TO
                 REACH OUT
             </p>
-            <div className="test"><button className="about__button">CONTACT</button></div>
+            <a href="mailto:jogo.isdev@gmail.com">
+                <button className="about__button">CONTACT</button>
+            </a>
         </div>
     );
 }

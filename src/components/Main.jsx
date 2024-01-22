@@ -11,9 +11,12 @@ export default function Main() {
             <Skills />
             <hr className="border" />
             <div>
-                <h2>PROJECTS</h2>
+                <h2 className="projects__title">PROJECTS</h2>
                 <Project>
-                    <Project.Title link="https://github.com/jlearns9/component-library">
+                    <Project.Title
+                        gitLink="https://github.com/jlearns9/component-library"
+                        webLink="https://component-library-8yl.pages.dev/"
+                    >
                         REACT COMPONENT LIBRARY
                     </Project.Title>
                     <Project.Image src="./component.png" />
@@ -21,6 +24,18 @@ export default function Main() {
                         A versatile React component library that helps
                         developers create and plan web applications with ease.
                         You can customize and use these components as you wish.
+                    </Project.Description>
+                </Project>
+                <Project>
+                    <Project.Title
+                        gitLink="https://github.com/jlearns9/quizzical"
+                        webLink="https://quizzical-mlg.pages.dev/"
+                    >
+                        QUIZZICAL
+                    </Project.Title>
+                    <Project.Image src="./quizzical.png" />
+                    <Project.Description>
+                        Web application designed for quiz enthusiasts.  It utilizes APIs to fetch quiz questions, allowing users to play a game of &ldquo;Quizzical&ldquo; 
                     </Project.Description>
                 </Project>
             </div>

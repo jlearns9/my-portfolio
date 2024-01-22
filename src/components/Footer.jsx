@@ -5,8 +5,9 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <footer className="footer">
             <hr className="border" />
+            
             <div className="flex footer__details">
                 <a
                     href="https://www.linkedin.com/in/jorge-gomez-8365779a/"
@@ -30,6 +31,7 @@ export default function Footer() {
                     <CiTwitter className="logo text-color" />
                 </a>
             </div>
-        </div>
+            <div className="footer__contact">©JORGE.GOMEZ | jogo.isdev@gmail.com</div>
+        </footer>
     );
 }
