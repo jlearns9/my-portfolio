@@ -38,6 +38,18 @@ export default function Main() {
                         Web application designed for quiz enthusiasts.  It utilizes APIs to fetch quiz questions, allowing users to play a game of &ldquo;Quizzical&ldquo; 
                     </Project.Description>
                 </Project>
+                <Project>
+                    <Project.Title
+                        gitLink="https://github.com/jlearns9/tenzies"
+                        webLink="https://tenzies-cmi.pages.dev/"
+                    >
+                        TENZIES
+                    </Project.Title>
+                    <Project.Image src="./tenzies.png" />
+                    <Project.Description>
+                        Web application designed for quiz enthusiasts.  It utilizes APIs to fetch quiz questions, allowing users to play a game of &ldquo;Quizzical&ldquo; 
+                    </Project.Description>
+                </Project>
             </div>
             <Footer />
         </div>
