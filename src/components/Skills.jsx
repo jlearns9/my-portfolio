@@ -37,7 +37,7 @@ export default function Skills() {
                 </li>
                 <li className="list__item flex">
                     <div className="color-light-blue logo">
-                        <FaReact />
+                        <FaReact className="spin" />
                     </div>{" "}
                     <div>REACT</div>
                 </li>

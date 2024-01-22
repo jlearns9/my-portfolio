@@ -14,7 +14,7 @@ export default function Main() {
                 <h2>PROJECTS</h2>
                 <Project>
                     <Project.Title link="https://github.com/jlearns9/component-library">
-                        MY COMPONENT LIBRARY
+                        REACT COMPONENT LIBRARY
                     </Project.Title>
                     <Project.Image src="./component.png" />
                     <Project.Description>

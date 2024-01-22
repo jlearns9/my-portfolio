@@ -72,15 +72,16 @@ html {
 
 /*########## MAIN ##########*/
 .main {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 4rem;
 }
 
 /*########## ABOUT ##########*/
-/* .about {} */
+.about {
+    padding: 1.5em 0;
+}
 
 .about__title {
     margin: 0;
-    padding-top: 1em;
 }
 
 .about__details {
@@ -115,9 +116,6 @@ html {
     gap: .75em;
 }
 
-.logo {
-    font-size: 1.5em;
-}
 
 /*########## SKILLS ##########*/
 .project__image {
@@ -150,11 +148,21 @@ html {
 
 .footer__details {
     justify-content: center;
+    gap: 20px;
+    padding: .5em;
 }
 
 /*########## MISC/UTILITY ##########*/
 .flex {
     display: flex;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.spin {
+    animation: spin 12s linear infinite;
 }
 
 .color-primary {
@@ -213,4 +221,14 @@ html {
 }
 
 @media (min-width: 1200px) {
+}
+
+/*########## KEYFRAMES ##########*/
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
