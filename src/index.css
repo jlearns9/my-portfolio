@@ -132,7 +132,8 @@ html {
 
 .project__image {
     border: 1px solid black;
-    max-width: 100%;
+    max-width: 420px;
+    width: 100%;
     height: auto;
 }
 
@@ -166,6 +167,7 @@ html {
 .footer__contact {
     font-size: .75em;
     text-align: center;
+    padding-bottom: .5em;
 }
 
 /*########## MISC/UTILITY ##########*/
@@ -237,12 +239,32 @@ html {
 }
 
 @media (min-width: 768px) {
-    /* .about {
+    .main {
+        display: flex;
+        padding: 2rem 0rem 4rem;
+    }
+    .about {
         max-width: 180px;
         border-right: 1px solid rgba(0, 0, 0, 0.1);
         padding: 1rem 1rem 0;
         height: calc(100vh - 2.75rem);
-    } */
+    }
+    .wide{
+        
+    }
+    .skills {
+        padding: 0 1em;
+    }
+    .projects {
+        padding: 0 1em;
+    }
+    .project {
+        display: flex;
+        gap: 10px;
+    }
+    .project__header {
+        width: 400px;
+    }
 }
 
 @media (min-width: 1200px) {
