@@ -242,6 +242,7 @@ html {
     .main {
         display: flex;
         padding: 2rem 0rem 4rem;
+        width: 100vw;
     }
     .about {
         max-width: 180px;
@@ -250,7 +251,7 @@ html {
         height: calc(100vh - 2.75rem);
     }
     .wide{
-        
+        width: 100%;
     }
     .skills {
         padding: 0 1em;
@@ -259,11 +260,26 @@ html {
         padding: 0 1em;
     }
     .project {
-        display: flex;
         gap: 10px;
+        width: 400px;
     }
     .project__header {
         width: 400px;
+    }
+    .project__description {
+        /* width: 300px; */
+    }
+    .wide__test {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        overflow: scroll;
+    }
+    .image__container {
+        height: 300px;
+        background-color: #000;
+        display: flex;
+        align-items: center;
     }
 }
 
