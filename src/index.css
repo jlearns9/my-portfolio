@@ -151,9 +151,9 @@ html {
 
 /*########## FOOTER ##########*/
 .footer {
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     background-color: #FFF;
 }
@@ -167,7 +167,7 @@ html {
 .footer__contact {
     font-size: .75em;
     text-align: center;
-    padding-bottom: .5em;
+    /* padding-bottom: .5em; */
 }
 
 /*########## MISC/UTILITY ##########*/
@@ -241,16 +241,14 @@ html {
 @media (min-width: 768px) {
     .main {
         display: flex;
-        padding: 2rem 0rem 4rem;
+        padding: 2rem 0rem 0;
         width: 100vw;
     }
     .about {
         max-width: 180px;
-        border-right: 1px solid rgba(0, 0, 0, 0.1);
         padding: 1rem 1rem 0;
-        height: calc(100vh - 2.75rem);
     }
-    .wide{
+    .wide {
         width: 100%;
     }
     .skills {
@@ -266,9 +264,9 @@ html {
     .project__header {
         width: 400px;
     }
-    .project__description {
-        /* width: 300px; */
-    }
+    /* .project__description {
+        width: 300px;
+    } */
     .wide__test {
         display: flex;
         flex-wrap: nowrap;
@@ -280,6 +278,10 @@ html {
         background-color: #000;
         display: flex;
         align-items: center;
+    }
+    .testing123 {
+        height: calc(100vh - 120px);
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
     }
 }
 
